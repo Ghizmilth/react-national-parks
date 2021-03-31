@@ -1,9 +1,12 @@
+import React, { useState } from 'react';
 import './App.css';
+import { Searchbar } from './components';
+
 
 function App() {
   return (
     <div>
-        <h1>SEARCHBAR</h1>
+        <Searchbar />
     
         <h1>NATIONAL PARKS LIST</h1>
     
