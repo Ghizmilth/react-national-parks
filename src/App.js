@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Searchbar } from './components';
+// import { parksList } from './api';
+import { Searchbar, Parks } from './components';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div>
         <Searchbar />
     
-        <h1>NATIONAL PARKS LIST</h1>
+        <Parks />
     
     </div>
     
