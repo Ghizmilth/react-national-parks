@@ -3,7 +3,7 @@ import data from '../../api/data.json';
 import { useStyles } from './ParksStyles.js';
 import { Box, Grid, Container, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, IconButton, Typography } from '@material-ui/core';
 import StarIcon from '@material-ui/icons/Star';
-import NotesOutlinedIcon from '@material-ui/icons/NotesOutlined';
+import MessageOutlinedIcon from '@material-ui/icons/MessageOutlined';
 import ImageOutlinedIcon from '@material-ui/icons/ImageOutlined';
 
 
@@ -53,7 +53,7 @@ const parkTiles =
                             </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    <NotesOutlinedIcon />
+                                    <MessageOutlinedIcon />
                                 </Button>
                                 <Button size="small" color="primary">
                                     <ImageOutlinedIcon />

@@ -10,23 +10,8 @@ const useStyles = makeStyles((theme) => ({
       color: theme.palette.text.secondary,
     },
     cards: {
-    maxWidth: 345,
+      maxWidth: 345,
     },
-    favoriteButton: {
-      justifyContent: "flex-end",
-      alignItems: "flex-end",
-    },
-    expand: {
-      marginLeft: 'auto',
-    },
-    media: {
-      position: 'relative',
-    },
-    overlay: {
-      position: 'absolute',
-      
-    }
-
     }));
 
   export { useStyles }; 
