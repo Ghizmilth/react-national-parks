@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Searchbar } from './components';
+import Container from '@material-ui/core/Container';
+import { Searchbar, Parks } from './components';
 
 
 function App() {
   return (
     <div>
-        <Searchbar />
-    
-        <h1>NATIONAL PARKS LIST</h1>
+      <Container>
+          <Searchbar />
+          <Parks />
+      </Container>
     
     </div>
     
