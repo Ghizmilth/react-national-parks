@@ -48,7 +48,7 @@ const parkTiles =
                                                 </IconButton>
                                             </Box>
                                         </Grid>
-                                   </Grid>
+                                    </Grid>
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
