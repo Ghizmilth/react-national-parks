@@ -11,7 +11,22 @@ const useStyles = makeStyles((theme) => ({
     },
     cards: {
     maxWidth: 345,
+    },
+    favoriteButton: {
+      justifyContent: "flex-end",
+      alignItems: "flex-end",
+    },
+    expand: {
+      marginLeft: 'auto',
+    },
+    media: {
+      position: 'relative',
+    },
+    overlay: {
+      position: 'absolute',
+      
     }
-  }));
+
+    }));
 
   export { useStyles }; 
